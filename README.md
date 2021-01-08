@@ -4,6 +4,6 @@ This repo is created because I found that most repos on Github trying to reprodu
 
 Here are some additional explanation:
 - My work is mainly based on @zengyu714's code. The full network is constructed in a single file so you can easily adapt it to any of your projects.
-- The network is now much closer to the one described in the paper(in my view), but still have one thing different -- normalization. This repo uses InstanceNorm3d between Conv3d and PReLU.
+- The network is now much closer to the one described in the paper(in my view), but still have two things different -- normalization and last activation layer. This repo uses InstanceNorm3d between Conv3d and PReLU, and uses Sigmoid as last activation layer.
 
 Please star this repo if you find it helpful, and if you find any other places of the codes seem different from the one in that paper, please inform me without hesitation. Thank you very much.
